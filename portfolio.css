@@ -1,0 +1,183 @@
+body {
+    background-image: url("imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin-top: 2rem;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+p {
+    margin-bottom: 0rem;
+}
+
+.uppercase1 {
+    text-transform: uppercase;
+    color: #69bfbc;
+}
+
+.uppercase6 {
+    text-transform: uppercase;
+    color: #a8e0df;
+}
+
+.navbar {
+    text-align: left;
+}
+
+.navbar.scrolled {
+    background: #060738;
+    transition: background 700ms;
+}
+
+.lead {
+    margin-bottom: 2rem;
+}
+
+.jumbotron {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    background-color: transparent; 
+}
+
+#jumbotron {
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    
+    
+    /* margin-top: 25px;
+    font-size: 21px;
+    text-align: center; */
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    padding: 60px;
+    width: 900px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .container {
+        padding: 10px;
+        width: 100%;
+    }
+    .copyright {
+        min-width: 481px;
+        max-width: 767px;
+    }
+    .row {
+        margin: 50px 0px 50px 0px;
+        /* margin-top: 50px;
+        margin-bottom: 50px; */
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        padding: 10px;
+        width: 100%;
+    }
+    .copyright {
+        min-width: 320px;
+        max-width: 480px;
+    }
+    .row {
+        margin: 50px 0px 50px 0px;
+        /* margin-top: 50px;
+        margin-bottom: 50px; */
+    }
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row-porfolio {
+    text-align: center;
+}
+
+.portfólió .container .row #center {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.thumbnail {
+    margin: 20px;
+}
+
+.row-porfolio {
+    text-align: center;
+}
+
+.copyright {
+    background-color: #060738;
+    position: absolute;
+    margin-bottom: 0rem;
+    line-height: 3rem;
+    width: 100%;
+    align-items: center;
+    padding: auto;
+    justify-content: center;
+}

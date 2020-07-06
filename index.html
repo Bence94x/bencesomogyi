@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Somogyi Bence webfejlesztő, programozó!</title>
+</head>
+<body>
+ 
+<header>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="#magamról">Magamról</a>
+                <a class="nav-item nav-link active" href="#kurzusok">Kurzusok</a>
+                <a class="nav-item nav-link active" href="#portfólió">Portfólió</a>
+                <a class="nav-item nav-link active" href="#elérhetőség">Elérhetőség</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container container-fluid">
+        <div class="jumbotron" id="jumbotron">
+            <h1 class="display-4">Somogyi Bence</h1>
+            <p class="lead">Webfejlesztő, programozó!</p>
+            <a class="btn btn-primary btn-lg" href="#magamról" role="button">Tovább...</a>
+        </div>
+    </div>
+</header>
+
+<section class="magamról" id="magamról">
+    <div class="container container-fluid">
+        <div class="about-details">
+            <div class="about-heading">
+                <h1 class="uppercase1">Magamról</h1>
+                <h6 class="uppercase6">Röviden</h6>
+            </div>
+            <p>Somogyi Bence vagyok, internetes kurzus(ok) által tanult weblapfejlesztő, programozó. 2020 áprilisa óta
+                tanulok és
+                foglalkozom kódolással. Már az elejétől kezdve napi szinten írok kódokat, hogy
+                megfelelő tudást és tapasztalatot szerezzek. Célom, hogy őszre junior (frontend és/vagy fullstack)
+                programozói pozíciót tölthessek be egy elhivatott és jól működő
+                Budapesti cégnél, ahol folyamatosan új dolgokat tanulhatok és fejleszthetem a tudásom.</p>
+        </div>
+    </div>
+</section>
+
+    <section class="kurzusok" id="kurzusok">
+        <div class="container container-fluid">
+            <div class="section-heading">
+                <h1 class="uppercase1">Kurzusok</h1>
+                <h6 class="uppercase6">Az eddig befejezettek</h6>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="thumbnail">
+                        <img src="imgs/certificate.jpg">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="thumbnail">
+                        <img src="imgs/comingsoon.jpg">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="thumbnail">
+                        <img src="imgs/dontpanic.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+        <section class="portfólió" id="portfólió">
+            <div class="container container-fluid">
+                <div class="section-heading">
+                    <h1 class="uppercase1">Portfólió</h1>
+                    <h6 class="uppercase6">Nézd meg néhány eddigi munkámat</h6>
+                </div>
+                <div class="row row-portfolio">
+                    <div class="col-md-6 col-12 text-center order-lg-1 order-md-1 order-sm-1">
+                        <img src="imgs/work1.png" alt="">
+                    </div>
+                    <div class="col-md-6 col-12 text-center order-lg-2 order-md-2 order-sm-2" id="center">
+                        <h3>Somogyi Bence portfólió weboldal</h3>
+                        <a href="">Megnézem</a>
+                    </div>
+                </div>
+        
+                <div class="row row-portfolio">
+                    <div class="col-md-6 col-12 text-center order-lg-2 order-md-2 order-sm-1">
+                        <img src="imgs/további.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 col-12 text-center order-lg-1 order-md-1 order-sm-2" id="center">
+                        <h3>További projectek hamarosan...</h3>
+                        <a href="">Megnézem</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section class="elérhetőség" id="elérhetőség">
+        <div class="container container-fluid">
+            <div class="section-heading">
+                <h1 class="uppercase1">Elérhetőség</h1>
+                <h6 class="uppercase6">Dolgozzunk közösen!</h6>
+            </div>
+            <p>Email: bence94x@gmail.com</p>
+        </div>
+    </section>
+
+        <footer class="copyright text-center">
+            <div class="up" id="up">
+                <p>&copy; 2020 Somogyi Bence</p>
+            </div>
+        </footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+</body>
+</html>
